@@ -1,0 +1,90 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    padding: 1rem 0; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0; /* Elimina el padding */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Hace el texto en negrita */
+}
+
+/* Estilos de la sección de introducción */
+.intro {
+    text-align: center; /* Alinea el contenido al centro */
+    padding: 2rem; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    margin: 20px; /* Margen exterior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos de los botones */
+.btn {
+    display: inline-block; /* Hace que el botón tenga dimensiones propias */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 10px; /* Margen superior */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilos de las secciones de proyectos */
+.featured-projects, .projects {
+    padding: 2rem; /* Espaciado interno */
+    background-color: white; /* Fondo blanco */
+    margin: 20px; /* Margen exterior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos de los proyectos y categorías */
+.project, .category {
+    margin: 10px 0; /* Margen superior e inferior */
+    padding: 15px; /* Espaciado interno */
+    background-color: #e3e3e3; /* Fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.project a, .category a {
+    color: #007BFF; /* Color azul */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center; /* Alinea el texto al centro */
+    padding: 1rem; /* Espaciado interno */
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    margin-top: 20px; /* Margen superior */
+}
