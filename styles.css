@@ -88,3 +88,55 @@ footer {
     color: white; /* Color del texto */
     margin-top: 20px; /* Margen superior */
 }
+
+
+/* Centrar el formulario en la pantalla */
+.form-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin-top: -200px; /* Ajusta este valor según lo necesites */
+}
+
+/* Estiliza el formulario */
+form {
+    background: #f9f9f9; /* Color de fondo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+/* Para que los campos ocupen todo el ancho disponible */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.contact-info {
+    margin-top: -200px; /* Ajusta este valor según necesites */
+    text-align: center;  /* Centra el texto dentro */
+    list-style: none; /* Elimina las viñetas */
+}
