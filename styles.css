@@ -140,3 +140,12 @@ button:hover {
     text-align: center;  /* Centra el texto dentro */
     list-style: none; /* Elimina las viñetas */
 }
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}
